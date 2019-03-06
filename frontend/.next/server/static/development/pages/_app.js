@@ -105,7 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Nav */ "./components/Nav.js");
-var _jsxFileName = "/home/pirini/Documents/React_Study/Advanced-React/sick-fits/frontend/components/Header.js";
+var _jsxFileName = "/home/pirini/Documents/React_Studies/sick-fits/frontend/components/Header.js";
 
 
 
@@ -175,7 +175,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next-server/head */ "next-server/head");
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/pirini/Documents/React_Study/Advanced-React/sick-fits/frontend/components/Meta.js";
+var _jsxFileName = "/home/pirini/Documents/React_Studies/sick-fits/frontend/components/Meta.js";
 
 
 
@@ -244,7 +244,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/pirini/Documents/React_Study/Advanced-React/sick-fits/frontend/components/Nav.js";
+var _jsxFileName = "/home/pirini/Documents/React_Studies/sick-fits/frontend/components/Nav.js";
 
 
 
@@ -306,15 +306,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
 /* harmony import */ var _Meta__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Meta */ "./components/Meta.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
 
 
-var _jsxFileName = "/home/pirini/Documents/React_Study/Advanced-React/sick-fits/frontend/components/Page.js";
+var _jsxFileName = "/home/pirini/Documents/React_Studies/sick-fits/frontend/components/Page.js";
 
 
 
+
+var theme = {
+  red: '#FF0000',
+  black: '#393939',
+  grey: '#3A3A3A',
+  lightgrey: '#E1E1E1',
+  offWhite: '#EDEDED',
+  maxWidth: '1000px',
+  bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)'
+};
+var Styledpage = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
+  displayName: "Page__Styledpage",
+  componentId: "sc-4u7a64-0"
+})(["background:white;color:black;"]);
+var Inner = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
+  displayName: "Page__Inner",
+  componentId: "sc-4u7a64-1"
+})(["max-width:1000px;margin:0 auto;padding:2rem;"]);
 
 var Page =
 /*#__PURE__*/
@@ -330,25 +350,31 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Page, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Styledpage, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Meta__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 31
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 32
         },
         __self: this
-      }), this.props.children);
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Inner, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, this.props.children));
     }
   }]);
 
@@ -1894,7 +1920,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/pirini/Documents/React_Study/Advanced-React/sick-fits/frontend/pages/_app.js";
+var _jsxFileName = "/home/pirini/Documents/React_Studies/sick-fits/frontend/pages/_app.js";
 
 
 
@@ -2150,6 +2176,17 @@ module.exports = require("react-is");
 /***/ (function(module, exports) {
 
 module.exports = require("regenerator-runtime");
+
+/***/ }),
+
+/***/ "styled-components":
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-components");
 
 /***/ }),
 
