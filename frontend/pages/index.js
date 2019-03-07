@@ -1,3 +1,3 @@
-const index = () => <p>INDEX!</p>;
+const index = () => '';
 
 export default index;
