@@ -10,7 +10,7 @@
 > The application has five main models — Users, Items, Orders, CartItems, and OrderItems — all of which are relational and showcase the power of relational GraphQL Queries.
 > The app also includes many server side bits including JWT authentication, permissions, sending email, uploading images, and charging credit cards.
 
-### ✨ Demo
+## Demo
 
 ![Demo](demo-sick-fits.gif)
 
@@ -36,5 +36,6 @@ npm run test
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
